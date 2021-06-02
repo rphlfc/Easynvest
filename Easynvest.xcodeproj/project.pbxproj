@@ -11,6 +11,10 @@
 		3DF0359D26682AC3008FA98A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0359C26682AC3008FA98A /* ContentView.swift */; };
 		3DF0359F26682AC7008FA98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF0359E26682AC7008FA98A /* Assets.xcassets */; };
 		3DF035A226682AC7008FA98A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF035A126682AC7008FA98A /* Preview Assets.xcassets */; };
+		3DF035B22668383D008FA98A /* YellowShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF035B12668383D008FA98A /* YellowShape.swift */; };
+		3DF035B4266838F6008FA98A /* PinkShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF035B3266838F6008FA98A /* PinkShape.swift */; };
+		3DF035B626683FCB008FA98A /* PurpleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF035B526683FCB008FA98A /* PurpleShape.swift */; };
+		3DF035B8266841CD008FA98A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3DF035B7266841CD008FA98A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		3DF0359E26682AC7008FA98A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DF035A126682AC7008FA98A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3DF035A326682AC7008FA98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF035B12668383D008FA98A /* YellowShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowShape.swift; sourceTree = "<group>"; };
+		3DF035B3266838F6008FA98A /* PinkShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkShape.swift; sourceTree = "<group>"; };
+		3DF035B526683FCB008FA98A /* PurpleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleShape.swift; sourceTree = "<group>"; };
+		3DF035B7266841CD008FA98A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 		3DF0358E26682AC3008FA98A = {
 			isa = PBXGroup;
 			children = (
+				3DF035B7266841CD008FA98A /* README.md */,
 				3DF0359926682AC3008FA98A /* Easynvest */,
 				3DF0359826682AC3008FA98A /* Products */,
 			);
@@ -57,6 +66,9 @@
 				3DF0359E26682AC7008FA98A /* Assets.xcassets */,
 				3DF035A326682AC7008FA98A /* Info.plist */,
 				3DF035A026682AC7008FA98A /* Preview Content */,
+				3DF035B12668383D008FA98A /* YellowShape.swift */,
+				3DF035B3266838F6008FA98A /* PinkShape.swift */,
+				3DF035B526683FCB008FA98A /* PurpleShape.swift */,
 			);
 			path = Easynvest;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF035B8266841CD008FA98A /* README.md in Resources */,
 				3DF035A226682AC7008FA98A /* Preview Assets.xcassets in Resources */,
 				3DF0359F26682AC7008FA98A /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DF0359D26682AC3008FA98A /* ContentView.swift in Sources */,
+				3DF035B626683FCB008FA98A /* PurpleShape.swift in Sources */,
+				3DF035B4266838F6008FA98A /* PinkShape.swift in Sources */,
+				3DF035B22668383D008FA98A /* YellowShape.swift in Sources */,
 				3DF0359B26682AC3008FA98A /* EasynvestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
